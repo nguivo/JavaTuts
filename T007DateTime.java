@@ -10,12 +10,12 @@ public class T007DateTime {
         LocalTime myTime = LocalTime.now();
         LocalDateTime dates = LocalDateTime.now();
 
-        DateTimeFormatter myFormats = DateTimeFormatter.ofPattern("dd-MM-yy HH:mm:ss");
+        DateTimeFormatter myFormats = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDate = myDate.format(myFormats);
 
         System.out.println(myDate);
         System.out.println(myTime);
         System.out.println(dates);
-        System.out.println(formattedDate);
+        //System.out.println(formattedDate);
     }
 }
